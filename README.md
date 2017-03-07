@@ -56,7 +56,7 @@ Enter a descriptive commit message and click "Commit."
 
 ![Commit message and button](https://github.com/clorton/git-cheat-sheet/raw/master/images/source-tree-commit-message.png)
 
-**5) Rinse and repeat steps 2 & 3 as you see fit. It can be useful to checkpoint work in progress.**
+**5) Rinse and repeat steps 3 & 4 as you see fit. It can be useful to checkpoint work in progress.**
 
 **6)	Push the commit(s) to _your_ repository on GitHub – this serves two purposes: it makes a backup of the work you have done and it makes it possible to share the work with other people.**
 
@@ -68,11 +68,11 @@ Double check that you have the right repository (the name and URL are shown at t
 
 ![Push dialog](https://github.com/clorton/git-cheat-sheet/raw/master/images/source-tree-push-dialog.png)
 
-**7) Rinse and repeat steps 2 through 5 as you see fit.**
+**7) Rinse and repeat steps 2 through 6 as you see fit.**
 
 **8) Fetch from the project repository to see if other changes have gone in since you started working (see step 1).**
 
-**9) If there are changes in the project repository, rebase _your_ work on those changes and (re-)push your work to your repository on GitHub.**
+**9) If there are changes in the project repository, rebase _your_ work on those changes and (re-)push your work to your repository on GitHub (you may need to "force" push which is an option in the push dialog).**
 
 With your working branch checked out (should be in *bold* under "BRANCHES"), right-click on ifdm/master and choose "Rebase..."
 
