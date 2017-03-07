@@ -2,11 +2,27 @@
 Basic command and operations in Git
 
 ##Getting Started with a New Project##
-1. Navigate to the project on GitHub (e.g. [HIV-Kenya](https://github.com/InstituteforDiseaseModeling/HIV-Kenya)).
-2. Fork the project to have your personal copy on GitHub.
-3. Copy the project URL in order to clone the repository on your local machine.
-4. Clone the project on your local machine.
-5. Add the original project repository as a remote.
+1) Navigate to the project on GitHub (e.g. [HIV-Kenya](https://github.com/InstituteforDiseaseModeling/HIV-Kenya)).
+
+2) Fork the project to have your personal copy on GitHub.
+
+![fork project](https://github.com/clorton/git-cheat-sheet/raw/master/images/github-fork.png)
+
+3) Copy the project URL in order to clone the repository on your local machine.
+
+![copy url](https://github.com/clorton/git-cheat-sheet/raw/master/images/github-copy-url.png)
+
+4) Clone the project on your local machine.
+
+![clone in SourceTree](https://github.com/clorton/git-cheat-sheet/raw/master/images/source-tree-clone.png)
+![Clone/Add/Create dialog](https://github.com/clorton/git-cheat-sheet/raw/master/images/source-tree-clone-dialog.png)
+
+5) Add the original project repository as a remote.
+
+![Menu tree for Add Remote...](https://github.com/clorton/git-cheat-sheet/raw/master/images/source-tree-add-remote-menu.png)
+![Repository Settings dialog](https://github.com/clorton/git-cheat-sheet/raw/master/images/source-tree-repository-settings-dialog.png)
+![Remote details dialog](https://github.com/clorton/git-cheat-sheet/raw/master/images/source-tree-remote-details-dialog.png)
+![Repository Settings with new remote](https://github.com/clorton/git-cheat-sheet/raw/master/images/source-tree-remote-details-dialog.png)
 
 ##Working with a Project##
 1.	Fetch from the project repository to make sure your subsequent work is based on the latest code/scripts/data found on the ```master``` branch in the project repository.
