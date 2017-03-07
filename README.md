@@ -6,6 +6,7 @@ Basic command and operations in Git
 2. Fork the project to have your personal copy on GitHub.
 3. Copy the project URL in order to clone the repository on your local machine.
 4. Clone the project on your local machine.
+5. Add the original project repository as a remote.
 
 ##Working with a Project##
 1.	Fetch from the project repository to make sure your subsequent work is based on the latest code/scripts/data found on the ```master``` branch in the project repository.
