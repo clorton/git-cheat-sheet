@@ -2,22 +2,22 @@
 Basic command and operations in Git
 
 ##Getting Started with a New Project##
-1) Navigate to the project on GitHub (e.g. [HIV-Kenya](https://github.com/InstituteforDiseaseModeling/HIV-Kenya)).
+**1) Navigate to the project on GitHub** (e.g. [HIV-Kenya](https://github.com/InstituteforDiseaseModeling/HIV-Kenya)).
 
-2) Fork the project to have your personal copy on GitHub.
+**2) Fork the project to have your personal copy on GitHub.**
 
 ![fork project](https://github.com/clorton/git-cheat-sheet/raw/master/images/github-fork.png)
 
-3) Copy the project URL in order to clone the repository on your local machine.
+**3) Copy the project URL in order to clone the repository on your local machine.**
 
 ![copy url](https://github.com/clorton/git-cheat-sheet/raw/master/images/github-copy-url.png)
 
-4) Clone the project on your local machine.
+**4) Clone the project on your local machine.**
 
 ![clone in SourceTree](https://github.com/clorton/git-cheat-sheet/raw/master/images/source-tree-clone.png)
 ![Clone/Add/Create dialog](https://github.com/clorton/git-cheat-sheet/raw/master/images/source-tree-clone-dialog.png)
 
-5) Add the original project repository as a remote.
+**5) Add the original project repository as a remote.**
 
 ![Menu tree for Add Remote...](https://github.com/clorton/git-cheat-sheet/raw/master/images/source-tree-add-remote-menu.png)
 ![Repository Settings dialog](https://github.com/clorton/git-cheat-sheet/raw/master/images/source-tree-repository-settings-dialog.png)
@@ -25,12 +25,12 @@ Basic command and operations in Git
 ![Repository Settings with new remote](https://github.com/clorton/git-cheat-sheet/raw/master/images/source-tree-remote-details-dialog.png)
 
 ##Working with a Project##
-1)	Fetch from the project repository to make sure your subsequent work is based on the latest code/scripts/data found on the ```master``` branch in the project repository.
+**1) Fetch from the project repository to make sure your subsequent work is based on the latest code/scripts/data found on the ```master``` branch in the project repository.**
 
 ![Fetch button](https://github.com/clorton/git-cheat-sheet/raw/master/images/source-tree-fetch.png)
 ![Fetch dialog](https://github.com/clorton/git-cheat-sheet/raw/master/images/source-tree-fetch-dialog.png)
 
-2)	Create a branch (branch early, branch often) – corollary: do not work in branch ```master```. Right click _in the graph view_ to create a branch based on the selected commit in the graph.
+**2) Create a branch (branch early, branch often) – corollary: do not work in branch ```master```. Right click _in the graph view_ to create a branch based on the selected commit in the graph.**
 
 ![branch](https://github.com/clorton/git-cheat-sheet/raw/master/images/source-tree-branch.png)
 
@@ -38,9 +38,9 @@ Give the new branch a short name descriptive of the work you are about to do.
 
 ![branch dialog](https://github.com/clorton/git-cheat-sheet/raw/master/images/source-tree-new-branch-dialog.png)
 
-3)	Create/update/delete files associated with the project.
+**3) Create/update/delete files associated with the project.**
 
-4)	Commit the changes locally (this creates a record of the changes you made along with a comment about the purpose of the changes). This involves selecting the changes you want to record, _staging_ them, and committing them with a descriptive commit message.
+**4) Commit the changes locally (this creates a record of the changes you made along with a comment about the purpose of the changes). This involves selecting the changes you want to record, _staging_ them, and committing them with a descriptive commit message.**
 
 ![Unstaged changes](https://github.com/clorton/git-cheat-sheet/raw/master/images/source-tree-unstaged-changes.png)
 
@@ -56,9 +56,9 @@ Enter a descriptive commit message and click "Commit."
 
 ![Commit message and button](https://github.com/clorton/git-cheat-sheet/raw/master/images/source-tree-commit-message.png)
 
-5)	Rinse and repeat steps 2 & 3 as you see fit. It can be useful to checkpoint work in progress.
+**5) Rinse and repeat steps 2 & 3 as you see fit. It can be useful to checkpoint work in progress.**
 
-6)	Push the commit(s) to _your_ repository on GitHub – this serves two purposes: it makes a backup of the work you have done and it makes it possible to share the work with other people.
+**6)	Push the commit(s) to _your_ repository on GitHub – this serves two purposes: it makes a backup of the work you have done and it makes it possible to share the work with other people.**
 
 Right-click on the branch name _under "BRANCHES"_ to the left of the graph view. Select _your_ repository under the "Push to" menu option.
 
@@ -68,11 +68,11 @@ Double check that you have the right repository (the name and URL are shown at t
 
 ![Push dialog](https://github.com/clorton/git-cheat-sheet/raw/master/images/source-tree-push-dialog.png)
 
-7)	Rinse and repeat steps 2 through 5 as you see fit.
+**7) Rinse and repeat steps 2 through 5 as you see fit.**
 
-8)	Fetch from the project repository to see if other changes have gone in since you started working (see step 1).
+**8) Fetch from the project repository to see if other changes have gone in since you started working (see step 1).**
 
-9)	If there are changes in the project repository, rebase _your_ work on those changes and (re-)push your work to your repository on GitHub.
+**9) If there are changes in the project repository, rebase _your_ work on those changes and (re-)push your work to your repository on GitHub.**
 
 With your working branch checked out (should be in *bold* under "BRANCHES"), right-click on ifdm/master and choose "Rebase..."
 
@@ -90,9 +90,9 @@ Once you have resolved all the conflicts (and staged all the previously conflict
 
 ![Continue Rebase](https://github.com/clorton/git-cheat-sheet/raw/master/images/source-tree-continue-rebase.png)
 
-10)	Create a pull request on GitHub for getting your changes into the project repository and onto the ```master``` branch.
+**10) Create a pull request on GitHub for getting your changes into the project repository and onto the ```master``` branch.**
 
 ![GitHub view](https://github.com/clorton/git-cheat-sheet/raw/master/images/github-initiate-pull-request.png)
 ![GitHub  open pull request](https://github.com/clorton/git-cheat-sheet/raw/master/images/github-open-pull-request.png)
 
-11)	Once the pull request has been accepted and your work is on the ```master``` branch in the project repository, return to step 1.
+**11) Once the pull request has been accepted and your work is on the ```master``` branch in the project repository, return to step 1.**
